@@ -3,7 +3,6 @@ import functools
 import os
 import re
 import urllib
-
 from flask import (Flask, flash, Markup, redirect, render_template, request,
                    Response, session, url_for)
 from markdown import markdown
